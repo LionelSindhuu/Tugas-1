@@ -3,12 +3,12 @@ let lulus = 0;
 let tidakLulus = 0;
 
 for (let i = 0; i < nilai.length; i++) {
-  let status = "Tidak Lulus";
   
   if (nilai[i] >= 75) {
     status = "Lulus";
     lulus++;
   } else {
+    status = "Tidak Lulus"
     tidakLulus++;
   }
   
