@@ -8,5 +8,5 @@ for (let i = 0; i < umur.length; i++) {
     status = "Tidak boleh masuk";
   }
   
-  console.log(`Siswa ke-${i + 1} : ${status}`);
+  console.log(`Pengunjung ke-${i + 1} : ${status}`);
 }
