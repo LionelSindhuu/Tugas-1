@@ -9,8 +9,6 @@ for (let i = 0; i < hargaBarang.length; i++) {
    total += hargaBarang[i];
 }
 
-let status; 
-
 if (total > 3000) {
     status = "Mendaptkan Diskon";
     console.log("Selamat anda mendapatkan diskon");
